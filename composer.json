@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Daffodil_Stock",
+    "type": "magento-module",
+    "license": "GPL",
+    "homepage": "",
+    "description": "Show message if quantity of product is low.",
+    "authors": [
+    {
+        "name": "Daffodil Software",
+        "email": "ashish.mittal@daffodilsw.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

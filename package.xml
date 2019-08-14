@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>Daffodil_Stock</name>
+    <version>1.0.0.3</version>
+    <stability>stable</stability>
+    <license>GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Show message if quantity of product is low.</summary>
+    <description>This Extension provide us facility to show message if quantity of product is less than a certain amount.&amp;#xD;&#xD;
+For Example if quantity is less than 10 then it shows message like "Please hurry only  few products are left."&amp;#xD;&#xD;
+We can set quantity of products  from admin. If product quantity is equl or less than set quantity then it start showing message in product detail page.</description>
+    <notes>First Release</notes>
+    <authors><author><name>Daffodil Software</name><user>daffodilsw</user><email>ashish.mittal@daffodilsw.com</email></author></authors>
+    <date>2014-09-09</date>
+    <time>04:52:30</time>
+    <contents><target name="magelocal"><dir name="Daffodil"><dir name="Stock"><dir name="Block"><file name="Stock.php" hash="a667f413c6d2f4aca71cf851b25766fc"/><file name="Stock.php~" hash="d7b13023e008a0a0c22875c355a91270"/></dir><dir name="Helper"><file name="Data.php" hash="aebfc2d3ea2566f6ffd6677eeb3c1286"/></dir><dir name="etc"><file name="config.xml" hash="6868f640ed25bec95774830a8db53406"/><file name="config.xml~" hash="0557195d1dd78f42345bd8c2f5b2880d"/><file name="system.xml" hash="2ba0d5f64d1ebafb448c3e3865b9c157"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="stock.xml" hash="1a940b79c6c651fbd55862340afb08fc"/></dir><dir name="template"><dir name="stock"><file name="stock.phtml" hash="7932e4defa3d7dbc7b25036d58d3ac93"/></dir></dir></dir></dir><dir name="rwd"><dir name="default"><dir name="layout"><file name="stock.xml" hash="1a940b79c6c651fbd55862340afb08fc"/></dir><dir name="template"><dir name="stock"><file name="stock.phtml" hash="7932e4defa3d7dbc7b25036d58d3ac93"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="default"><dir name="default"><dir name="css"><file name="stock.css" hash="24cd510cf49f058261f91b62653839a5"/></dir></dir></dir><dir name="rwd"><dir name="default"><dir name="css"><file name="stock.css" hash="24cd510cf49f058261f91b62653839a5"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Daffodil_Stock.xml" hash="9a9fbf436a4bd167b79390a53aa8a927"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php><package><name>Mage_Core_Modules</name><channel>community</channel><min>1.6.0.0</min><max>1.9</max></package></required></dependencies>
+</package>

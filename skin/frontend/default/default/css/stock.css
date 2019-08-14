@@ -1,0 +1,9 @@
+
+.stockmsg{
+    background: none repeat scroll 0 0 #808000;
+    border: 1px solid #CCCCCC;
+    border-radius: 15px 15px 15px 15px;
+    color: #FFFFFF;
+    font-size: 15px;
+    padding: 5px 2px 12px 12px;
+}

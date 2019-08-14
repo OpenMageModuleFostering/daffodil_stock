@@ -1,0 +1,17 @@
+<?php
+/*
+ * Stock Management Extension Developed by Daffodil S/w Ltd. 
+ */
+?>
+<?php
+$_item = $this->getStoreconfig();
+$mystock = $_item['mystock'];
+$lowmessage = $_item['lowmessage'];
+$_invAmt = $this->getQuantity();
+if ($mystock >= $_invAmt) {
+    ?>
+    <div class="stockmsg" > 
+        <?php echo $lowmessage ?>
+    </div>
+<?php }
+?>
